@@ -1,77 +1,94 @@
 @CHARSET "ISO-8859-1";
-	body {
-    	background-image: url("http://i.magaimg.net/img/el4.png");
-	}
-	header {
-		Padding: 1px;
-		Color: white;
-		Background-color:black;
-		Text-align: center;
-		font-size: 300%;
-	}	
-	div.container1 {
-	    height: auto;
-	    width: 60%;
-	    background-color: #ffffff;
-	    padding: 16px;
-	    border: 1px solid #ffffff;
-	    border-radius: 5px;
-		float: left;
-		border-spacing: 10px 50px;
-	}
-	div.container1a {
-	    height: auto;
-	    width: 80%;
-	    border: 1px solid #000000;
-	    float: left;
-	}
-	div.container1b {
-		height: 100px;
-		width: 18%;
-		Background-color:grey;
-		padding: 4px;
-		border-radius: 4px;
-		float: right;
-	}
-	footer {
-		position: absolute;
-		right: 0;
-		bottom: 0;
-		left: 0;
-		padding: 1rem;
-		background-color: #404040;
-		text-align: center;
-	}
-	div.containerFooter1 {
-		height: auto;
-		width: 10%;
-		Color: white;
-		Background-color:grey;
-		float: right;
-		Text-align: left;
-		padding: 10px;
-		border-radius: 5px;
-	}
-	ul {
-	    list-style-type: none;
-	    margin: 0;
-	    padding: 0;
-	    overflow: hidden;
-	    background-color: #333333;
-	}
-	li {
-    	float: left;
-	}
-	li a {
-		display: block;
-		padding: 16px;
-		color: white;
-	}
-	p.times, h1.times {
-		font-style: times new roman;
-	}
-	a.1 {
-		display: block;
-		padding: 16px;
-		color: black;
-	}
+
+body {
+	background-image: url("http://i.magaimg.net/img/el4.png");
+}
+
+header {
+	Padding: 1px;
+	Color: white;
+	Background-color: black;
+	Text-align: center;
+	font-size: 100%;
+}
+div.break {
+	Height: 50px;
+	width: 100%;
+}
+div.container1 {
+	height: auto;
+	width: 60%;
+	background-color: #ffffff;
+	padding: 16px;
+	border: 1px solid #ffffff;
+	border-radius: 5px;
+	float: left;
+}
+
+div.container1a {
+	height: auto;
+	width: 80%;
+	border: 1px solid #000000;
+	float: left;
+}
+
+div.container1b {
+	height: 100px;
+	width: 18%;
+	Background-color: grey;
+	padding: 4px;
+	border-radius: 4px;
+	float: right;
+}
+
+footer {
+	height: 100px;
+	width: 100%;
+	clear: both;	
+	padding: 1rem;
+	background-color: #404040;
+	text-align: center;
+}
+
+div.containerFooter1 {
+	height: auto;
+	width: 10%;
+	Color: white;
+	Background-color: grey;
+	float: left;
+	Text-align: left;
+	padding: 5px;
+	border-radius: 5px;
+}
+
+ul {
+	list-style-type: none;
+	margin: 0;
+	padding: 0;
+	overflow: hidden;
+	background-color: #333333;
+}
+
+li {
+	float: left;
+}
+
+li a {
+	display: block;
+	padding: 16px;
+	color: white;
+}
+
+p.times, h1.times {
+	font-style: times new roman;
+}
+
+a.1 {
+	display: block;
+	padding: 16px;
+	color: black;
+}
+img {
+	width: 80%;
+	height: auto;
+}
