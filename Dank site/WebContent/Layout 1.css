@@ -17,6 +17,7 @@
 	    border: 1px solid #ffffff;
 	    border-radius: 5px;
 		float: left;
+		border-spacing: 10px 50px;
 	}
 	div.container1a {
 	    height: auto;
