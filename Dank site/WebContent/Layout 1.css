@@ -12,9 +12,13 @@ header {
 	Text-align: center;
 	font-size: 100%;
 }
+div.sidemenu {
+	height: 80%;
+	width: 200px;
+}
 div.container1 {
 	height: auto;
-	width: 60%;
+	width: 100%;
 	background-color: #ffffff;
 	padding: 16px;
 	border: 1px solid #ffffff;
@@ -89,4 +93,7 @@ a.1 {
 img {
 	width: 80%;
 	height: auto;
+}
+table {
+	width: 80%;
 }
