@@ -1,16 +1,30 @@
 @CHARSET "ISO-8859-1";
-
 body {
+	width: 100%;
 	background-image: url("http://i.magaimg.net/img/el4.png");
 	background-size: 100%;
 }
 
-header {
-	Padding: 1px;
-	Color: white;
+div.header {
+	height: 150px;
+	width: 100%;
+	Padding: 5px;
 	Background-color: black;
-	Text-align: center;
-	font-size: 100%;
+}
+div.homeImage {
+	Height: 150px;
+	width: 30%;
+	margin: auto;
+}
+div.login {
+	Width: 10%;
+	Padding: 5px;
+	Background-color: #c8c8c8;
+	border-radius: 5px;
+	float: right;
+	position: absolute;
+	top: 15px;
+	right: 0;
 }
 div.sidemenu {
 	height: 2000px;
@@ -83,6 +97,7 @@ li a {
 
 p.times, h1.times {
 	font-style: times new roman;
+	color: black;
 }
 
 p a.1 {
