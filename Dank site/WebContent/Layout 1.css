@@ -3,6 +3,7 @@ body {
 	width: 100%;
 	background-image: url("http://i.magaimg.net/img/el4.png");
 	background-size: 100%;
+	margin: 0;
 }
 
 div.header {
