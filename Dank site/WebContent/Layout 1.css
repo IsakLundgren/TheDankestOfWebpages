@@ -13,7 +13,7 @@ header {
 	font-size: 100%;
 }
 div.sidemenu {
-	height: 80%;
+	height: 2000px;
 	width: 200px;
 }
 div.container1 {
@@ -85,7 +85,7 @@ p.times, h1.times {
 	font-style: times new roman;
 }
 
-a.1 {
+p a.1 {
 	display: block;
 	padding: 16px;
 	color: black;
@@ -95,5 +95,5 @@ img {
 	height: auto;
 }
 table {
-	width: 80%;
+	width: 100%;
 }
