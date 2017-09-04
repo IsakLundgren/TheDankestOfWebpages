@@ -2,6 +2,7 @@
 
 body {
 	background-image: url("http://i.magaimg.net/img/el4.png");
+	background-size: 100%;
 }
 
 header {
@@ -11,10 +12,6 @@ header {
 	Text-align: center;
 	font-size: 100%;
 }
-div.break {
-	Height: 50px;
-	width: 100%;
-}
 div.container1 {
 	height: auto;
 	width: 60%;
@@ -23,6 +20,7 @@ div.container1 {
 	border: 1px solid #ffffff;
 	border-radius: 5px;
 	float: left;
+	margin-bottom: 20px;
 }
 
 div.container1a {
