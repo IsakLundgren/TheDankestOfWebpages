@@ -18,7 +18,7 @@ div.homeImage {
 	margin: auto;
 }
 div.login {
-	Width: 10%;
+	Width: 200px;
 	Padding: 5px;
 	Background-color: #c8c8c8;
 	border-radius: 5px;
@@ -29,7 +29,7 @@ div.login {
 }
 div.sidemenuLeft {
 	height: 3000px;
-	width: 10%;
+	width: 256px;
 	float: left;
 	margin-left: 0;
 	margin-right: 1%;
@@ -40,7 +40,7 @@ div.sidemenuLeft {
 }
 div.sidemenuRight {
 	height: 3000px;
-	width: 10%;
+	width: 256px;
 	float: right;
 	margin-left: 1%;
 	border: 10px solid #404040;
@@ -51,13 +51,14 @@ div.sidemenuRight {
 }
 div.container1 {
 	height: auto;
-	width: 73.85%;
+	width: 1880px;
 	background-color: #ffffff;
 	padding: 1%;
 	border: 1px solid #ffffff;
 	border-radius: 5px;
 	margin-bottom: 20px;
 	float: left;
+	margin: auto;
 	position: relative;
 }
 
