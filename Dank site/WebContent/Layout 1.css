@@ -7,7 +7,7 @@ body {
 }
 
 div.header {
-	height: 81px;
+	height: 100px;
 	width: 100%;
 	Background-color: #6FF70D;
 	position: fixed;
@@ -18,6 +18,8 @@ div.formulaHeader {
 	padding: 10px;
 	margin-right: -16px;
 	margin-left: -16px;
+	border-top: 1px solid black;
+	border-bottom: 1px solid black;
 	text-align: ceter;
 }
 div.space {
@@ -25,8 +27,8 @@ div.space {
 	width: 100%
 }
 div.homeImage {
-	Height: 81px;
-	width: 533px;
+	Height: 100px;
+	width: 480px;
 	margin: auto;
 }
 div.login {
@@ -35,7 +37,7 @@ div.login {
 	float: right;
 	text-align: center;
 	position: absolute;
-	top: 47px;
+	top: 80px;
 	right: 15px;
 }
 div.inner {
@@ -168,7 +170,7 @@ a.loginlink {
 	margin-bottom: 0;
 	float: left;
 	background-color: white;
-	border-radius: 5px 5px 0 0;
+	border-radius: 5px;
 	display: block;
 	padding: 6px;
 	color: black;
@@ -177,12 +179,17 @@ a.loginlink {
 a.loginlink:hover {
 	opacity: 0.8;
 }
+b.b1 {
+	margin-left: 40px;
+	font-style: italic;
+	font-size: 20px;
+}
 label.signup {
 	display: block;
 	padding: 10px;
 }
 img.homeImage {
-	height: 81px;
+	height: 100px;
 	width: auto;
 }
 img.pranked {
